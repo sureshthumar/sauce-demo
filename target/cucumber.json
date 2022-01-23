@@ -1,0 +1,191 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-23T17:15:35.369Z",
+        "line": 19,
+        "name": "User navigates saucedemo page and complete purchasing items",
+        "description": "",
+        "id": "saucedemo-purchase-items;user-navigates-saucedemo-page-and-complete-purchasing-items;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2129650700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user open saucedemo page",
+            "match": {
+              "location": "com.saucedemo.cucumber.steps.SauceDemoTestSteps.user_open_saucedemo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 215284900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user login with credential \"Satandard_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Satandard_user\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.saucedemo.cucumber.steps.SauceDemoTestSteps.user_login_with_credential_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153384800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on Login button",
+            "match": {
+              "location": "com.saucedemo.cucumber.steps.SauceDemoTestSteps.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263325200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user sort the products by Price (high to low)",
+            "match": {
+              "location": "com.saucedemo.cucumber.steps.SauceDemoTestSteps.user_sort_the_products_by_price_high_to_low()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 231104300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user select cheapest \u0026 costliest products to basket",
+            "match": {
+              "location": "com.saucedemo.cucumber.steps.SauceDemoTestSteps.user_select_cheapest_costliest_products_to_basket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68916400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user open shopping cart",
+            "match": {
+              "location": "com.saucedemo.cucumber.steps.SauceDemoTestSteps.user_open_shopping_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55716200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user go to checkout",
+            "match": {
+              "location": "com.saucedemo.cucumber.steps.SauceDemoTestSteps.user_go_to_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 281100600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enter details \"firstName\", \"lastName\" and \"Zip/PostalCode\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"firstName\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"lastName\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"Zip/PostalCode\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.saucedemo.cucumber.steps.SauceDemoTestSteps.user_enter_details_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79950800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on continue button",
+            "match": {
+              "location": "com.saucedemo.cucumber.steps.SauceDemoTestSteps.user_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63953400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click on finish button",
+            "match": {
+              "location": "com.saucedemo.cucumber.steps.SauceDemoTestSteps.user_click_on_finish_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 702332000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should be able to see message \u0027THANK YOU FOR YOUR ORDER\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027THANK YOU FOR YOUR ORDER\u0027",
+                  "offset": 35
+                }
+              ],
+              "location": "com.saucedemo.cucumber.steps.SauceDemoTestSteps.user_should_be_able_to_see_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Saucedemo purchase items",
+    "description": "",
+    "id": "saucedemo-purchase-items",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/feature/saucedemo.feature",
+    "tags": []
+  }
+]
